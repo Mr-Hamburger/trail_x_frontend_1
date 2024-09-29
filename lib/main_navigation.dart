@@ -52,8 +52,8 @@ class _MainNavigation extends State<MainNavigation> {
                 decoration: BoxDecoration(
                     color: mapIconBackgroundColor,
                     borderRadius: BorderRadius.circular(40)),
-                child: const Padding(
-                  padding: EdgeInsets.symmetric(vertical: 2.4),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 2.4),
                   child: Icon(
                     Icons.pin_drop,
                     color: backgroundColor,

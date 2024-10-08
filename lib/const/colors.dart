@@ -11,3 +11,4 @@ final Color loginTextColor = HexColor("#454545");
 final Color loginGreenColor = HexColor("#389898");
 final Color loginSecondaryTextColor = HexColor("#828282");
 final Color preferenceCreationQuestionsFillColor = HexColor('#389898');
+final Color likedColor = HexColor('E73B7D');

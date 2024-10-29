@@ -10,21 +10,19 @@ class Fyp extends StatefulWidget {
 }
 
 class _Fyp extends State<Fyp> with TickerProviderStateMixin {
-  late TabController _tabController;
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(vsync: this, length: 4);
   }
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
         length: 4,
         child: Scaffold(
-            appBar: const PreferredSize(
+            appBar: PreferredSize(
               preferredSize: Size.fromHeight(40),
               child: TabBar(
                 padding: EdgeInsets.only(top: 0),
@@ -49,7 +47,7 @@ class _Fyp extends State<Fyp> with TickerProviderStateMixin {
                 FypHikingCards(),
                 FypKayakingCards(),
                 FypCampingCards(),
-                FypCityWalkCards(),
+                FypCitywalkCards(),
               ],
             )),
       ),

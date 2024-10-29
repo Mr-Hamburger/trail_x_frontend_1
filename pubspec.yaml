@@ -7,6 +7,10 @@ environment:
   sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
+  assorted_layout_widgets: ^9.0.2
+  auto_height_grid_view: ^1.0.0
+  blur: ^4.0.0
+  cached_network_image: ^3.4.1
   flutter:
     sdk: flutter
   flutter_swipe_button: ^2.1.3

@@ -32,7 +32,7 @@ class _FypHikingCards extends State<FypHikingCards> {
         crossAxisCount: 2,
         crossAxisSpacing: 2.0,
         mainAxisSpacing: 2.0,
-        childAspectRatio: 2 / 2.6,
+        childAspectRatio: 2 / 2.8,
       ),
       itemCount: 8,
       itemBuilder: (context, index) {
@@ -97,9 +97,10 @@ class _FypHikingCards extends State<FypHikingCards> {
                       padding: const EdgeInsets.all(10),
                       color: Colors.white,
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          SizedBox(
+                          Container(
+                            padding: const EdgeInsets.only(left: 8),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -134,7 +135,8 @@ class _FypHikingCards extends State<FypHikingCards> {
                               ],
                             ),
                           ),
-                          SizedBox(
+                          Container(
+                            padding: const EdgeInsets.only(right: 30),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
